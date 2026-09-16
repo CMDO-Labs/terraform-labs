@@ -8,7 +8,7 @@ terraform {
   }
 }
 
-resource "local_file" "day1" {
-    filename = "terraform-created.txt"
-    content = "My second Terraform-managed resource."
+resource "local_file" "security_notes" {
+  filename = "terraform-created.txt"
+  content  = "My second Terraform-managed resource."
 }
