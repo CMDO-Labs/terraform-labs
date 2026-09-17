@@ -10,5 +10,5 @@ terraform {
 
 resource "local_file" "security_notes" {
   filename = "terraform-created.txt"
-  content  = "My second Terraform-managed resource."
+  content  = var.file_content
 }
