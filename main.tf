@@ -9,6 +9,6 @@ terraform {
 }
 
 resource "local_file" "security_notes" {
-  filename = "terraform-created.txt"
+  filename = var.file_name
   content  = var.file_content
 }
