@@ -1,5 +1,4 @@
 .terraform/
 *.tfstate*
-terraform-created.txt
-security-notes.txt
 terraform.tfvars
+*.txt
