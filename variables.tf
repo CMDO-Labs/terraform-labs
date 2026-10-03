@@ -10,5 +10,5 @@ variable "security_files" {
   type = set(string)
 }
 variable "security_categories" {
-  type= map(string)
+  type = map(string)
 }

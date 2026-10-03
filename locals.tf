@@ -1,3 +1,3 @@
 locals {
-    enironment_prefix = "soc"
+  environment_prefix = "soc"
 }
